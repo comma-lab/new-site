@@ -3,7 +3,7 @@ layout: profile
 group: Members
 name: Luca Marinelli
 position: UKRI AIM PhD Student
-position-other: Turing Enrichment 2022-23
+position-other: Turing Institute Enrichment Scheme 2021-22
 avatar: assets/img/people/luca.jpg
 research-interests: Music information retrieval, Multimodal deep learning, Gender and media studies, Music cognition
 github: https://github.com/marinelliluca
@@ -15,7 +15,7 @@ education:
   - course: Enrichment Scheme
     level: PhD
     institution: The Alan Turing Institute
-    year: 2023
+    year: 2022
   - course: Audiokommunikation und -technologie
     level: MSc
     institution: Technische Universität Berlin
