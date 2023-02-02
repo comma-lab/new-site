@@ -1,9 +1,0 @@
----
-layout: page
-title: Auditory Brightness Perception
-description:
-order: 5
-display: false
----
-
-Insert markdown content
