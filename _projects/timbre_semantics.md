@@ -1,9 +1,9 @@
 ---
 layout: page
-title: Auditory Brightness Perception
+title: Timbre Semantics
 description:
 img: Add image
-order: 8
+order: 9
 redirect: Remove if not redirecting
 display: false
 ---

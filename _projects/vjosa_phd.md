@@ -1,9 +1,9 @@
 ---
 layout: page
-title: Auditory Brightness Perception
-description:
+title: Insert PhD Project Title
+description: Vjosa Preniqi
 img: Add image
-order: 8
+order: 6
 redirect: Remove if not redirecting
 display: false
 ---

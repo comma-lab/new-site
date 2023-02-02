@@ -1,9 +1,9 @@
 ---
 layout: page
-title: Auditory Brightness Perception
+title: Timbre Explorer
 description:
 img: Add image
-order: 8
+order: 12
 redirect: Remove if not redirecting
 display: false
 ---
