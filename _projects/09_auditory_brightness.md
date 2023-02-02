@@ -2,7 +2,9 @@
 layout: page
 title: Auditory Brightness Perception
 description:
-order: 5
+img: <Add image>
+order: 9
+redirect: <Remove if not redirecting>
 display: false
 ---
 
