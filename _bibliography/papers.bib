@@ -7,8 +7,34 @@
 %% Saved with string encoding Unicode (UTF-8) 
 
 
+@inproceedings{ben_icassp_2023,
+	abbr = {ICASSP},
+	year = {2023},
+	author = {Hayes, Ben and Saitis, Charalampos and Fazekas, Gy{\"o}rgy},
+	arxiv = {2210.14476},
+	title = {Sinusoidal Frequency Estimation by Gradient Descent},
+	booktitle = {48th IEEE International Conference on Acoustics, Speech and Signal Processing},
+	abstract = {Sinusoidal parameter estimation is a fundamental task in applications from spectral analysis to time-series forecasting. Estimating the sinusoidal frequency parameter by gradient descent is, however, often impossible as the error function is non-convex and densely populated with local minima. The growing family of differentiable signal processing methods has therefore been unable to tune the frequency of oscillatory components, preventing their use in a broad range of applications. This work presents a technique for joint sinusoidal frequency and amplitude estimation using the Wirtinger derivatives of a complex exponential surrogate and any first order gradient-based optimiser, enabling end-to-end training of neural network controllers for unconstrained sinusoidal models.}}
+	
+@inproceedings{rodrigo_icassp_2023,
+	abbr = {ICASSP},
+	year = {2023},
+	author = {Diaz, Rodrigo and Hayes, Ben and Saitis, Charalampos and Fazekas, Gy{\"o}rgy and Sandler, Mark},
+	arxiv = {2210.15306},
+	title = {Rigid-Body Sound Synthesis with Differentiable Modal Resonators},
+	booktitle = {48th IEEE International Conference on Acoustics, Speech and Signal Processing},
+	abstract = {Physical models of rigid bodies are used for sound synthesis in applications from virtual environments to music production. Traditional methods, such as modal synthesis, often rely on computationally expensive numerical solvers, while recent deep learning approaches are limited by post-processing of their results. In this work, we present a novel end-to-end framework for training a deep neural network to generate modal resonators for a given 2D shape and material using a bank of differentiable IIR filters. We demonstrate our method on a dataset of synthetic objects but train our model using an audio-domain objective, paving the way for physically-informed synthesisers to be learned directly from recordings of real-world objects.}}
 
-
+@article{charis_musperc_2023,
+	abbr = {Journal},
+	author = {Reymore, Lindsey and Noble, Jason and Saitis, Charalampos and Traube, Caroline and Wallmark, Zachary},
+	journal = {Music Perception},
+	year = {2023},
+	volume = {40},
+	pages = {253--274},
+	number = {3},
+	title = {Timbre semantic associations vary both between and within instruments: An empirical study incorporating register and pitch height},
+	abstract = {The main objective of this study is to understand how timbre semantic associations — for example, a sound’s timbre perceived as bright, rough, or hollow — vary with register and pitch height across instruments. In this experiment, 540 online participants rated single, sustained notes from eight Western orchestral instruments (flute, oboe, bass clarinet, trumpet, trombone, violin, cello, and vibraphone) across three registers (low, medium, and high) on 20 semantic scales derived from Reymore and Huron (2020). The 24 two-second stimuli, equalized in loudness, were produced using the Vienna Symphonic Library. Exploratory modeling examined relationships between mean ratings of each semantic dimension and instrument, register, and participant musician identity (‘‘musician’’ vs. ‘‘nonmusician’’). For most semantic descriptors, both register and instrument were significant predictors, though the amount of variance explained differed (marginal R^2). Terms that had the strongest positive relationships with register include shrill/harsh/noisy, sparkling/brilliant/bright, ringing/long decay, and percussive. Terms with the strongest negative relationships with register include deep/thick/heavy, raspy/grainy/gravelly, hollow, and woody. Post hoc modeling using only pitch height and only register to predict mean semantic rating suggests that pitch height may explain more variance than does register. Results help clarify the influence of both instrument and relative register (and pitch height) on common timbre semantic associations.}}
 
 @inproceedings{actor_icmpc_2021,
 	abbr = {ICMPC},
@@ -80,15 +106,6 @@
 	title = {Spectrotemporal modulation timbre cues in musical dynamics},
 	booktitle = {Biennial Meeting of the Society for Music Perception and Cognition}}
 
-@article{charis_musperc_202x,
-	abbr = {Journal},
-	author = {Reymore, Lindsey and Noble, Jason and Saitis, Charalampos and Traube, Caroline and Wallmark, Zachary},
-	forthcoming = {true},
-	journal = {Music Perception},
-	note = {in press},
-	selected = {false},
-	title = {Timbre semantic associations vary both between and within instruments: An empirical study incorporating register and pitch height}}
-
 @article{saitis2020timbre,
 	abbr = {Journal},
 	abstract = {This position paper argues that a systematic study of the behavioral and neural mechanisms of crossmodal correspondences between timbral dimensions of sound and perceptual dimensions of other sensory modalities, such as brightness, roughness, or sweetness, can offer a new way of addressing old questions about the perceptual and neurocognitive mechanisms of auditory semantics. At the same time, timbre and the crossmodal metaphors that dominate its conceptualization can provide a test case for better understanding the neural basis of crossmodal correspondences and human semantic processing in general.},
@@ -143,10 +160,11 @@
 	abbr = {ISMIR},
 	abstract = {This study explores the association between music preferences and moral values by applying text analysis techniques to lyrics. Harvesting data from a Facebook-hosted application, we align psychometric scores of 1,386 users to lyrics from the top 5 songs of their preferred music artists as emerged from Facebook Page Likes. We extract a set of lyrical features related to each song's overarching narrative, moral valence, sentiment, and emotion. A machine learning framework was designed to exploit regression approaches and evaluate the predictive power of lyrical features for inferring moral values. Results suggest that lyrics from top songs of artists people like inform their morality. Virtues of hierarchy and tradition achieve higher prediction scores (between .20 and .30) than values of empathy and equality (between .08 and .11), while basic demographic variables only account for a small part in the models' explainability. This shows the importance of music listening behaviours, as assessed via lyrical preferences, alone in capturing moral values. We discuss the technological and musicological implications and possible future improvements.},
 	address = {{Online}},
-	arxiv = {2209.01169},
+	pdf = {https://archives.ismir.net/ismir2022/paper/000096.pdf},
 	author = {Preniqi, Vjosa and Kalimeri, Kyriaki and Saitis, Charalampos},
 	booktitle = {23rd International Society for Music Information Retrieval Conference},
 	selected = {true},
+	video = {https://drive.google.com/file/d/1MMI5RbZdgjhQOavn7Slxzysb2RQ_Tza1/view},
 	title = {More Than Words: Linking Music Preferences and Moral Values Through Lyrics},
 	year = {2022}}
 
