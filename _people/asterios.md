@@ -2,7 +2,7 @@
 # layout: profile
 name: Asterios Zacharakis
 group: Associate members
-position: Research Associate @ Music @ AUTh
+position: Research Associate, Music AUTh
 position-other:
 avatar: assets/img/people/asterios.webp
 research-interests: 
