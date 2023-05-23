@@ -2,8 +2,8 @@
 # layout: profile
 name: Asterios Zacharakis
 group: Associate members
-position: Collaborator (Music @ AUTh)
-position-other: Timbre 2020 & 2023
+position: Research Associate @ Music @ AUTh
+position-other:
 avatar: assets/img/people/asterios.webp
 research-interests: 
 github: 
