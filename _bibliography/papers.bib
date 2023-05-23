@@ -23,6 +23,7 @@
 	booktitle = {International Conference on New Interfaces for Musical Expression},
 	abstract = {In this work, we propose a method for the controllable synthesis of real-time contact sounds using neural resonators. Previous works have used physically inspired statistical methods and physical modelling for object materials and excitation signals. Our method incorporates differentiable second-order resonators and estimates their coefficients using a neural network that is conditioned on physical parameters. This allows for interactive dynamic control and the generation of novel sounds in an intuitive manner. We demonstrate the practical implementation of our method and explore its potential creative applications.},
 	video = {https://www.youtube.com/watch?v=HnUc3VTUReo},
+	video = {https://interactive-neural-resonators.com/},
 	year = {2023}}
 
 @inproceedings{vjosa_ic2s2_2023,
@@ -39,7 +40,7 @@
 	author = {Marinelli, Luca and Saitis, Charalampos},
 	title = {Analysing the Gendering of Music in Toy Commercials via Mid-level Perceptual Features},
 	booktitle = {17th International Conference on Music Perception and Cognition},
-	abstract = {}}
+	abstract = {Luca_ICMPC23.pdf}}
 
 @inproceedings{vjosa_icmpc_2023a,
 	abbr = {ICMPC},
@@ -65,13 +66,21 @@
 	booktitle = {3rd International Conference on Timbre},
 	abstract = {}}
 
+@inproceedings{charis_nime_timbre,
+	abbr = {Timbre},
+	year = {2023},
+	author = {Saitis, Charalampos and Torshizi, Maryam F. and Preniqi, Vjosa and Del Sette, Bleiz M. and Fazekas, György},
+	title = {When NIME and ISMIR Talk Timbre},
+	booktitle = {3rd International Conference on Timbre},
+	abstract = {}}
+
 @article{charis_cgpt_arXiv,
 	abbr = {arXiv},
 	abstract = {Semantic dimensions of sound have been playing a central role in understanding the nature of auditory sensory experience as well as the broader relation between perception, language, and meaning. Accordingly, and given the recent proliferation of large language models (LLMs), here we asked whether such models exhibit an organisation of perceptual semantics similar to those observed in humans. Specifically, we prompted ChatGPT, a chatbot based on a state-of-the-art LLM, to rate musical instrument sounds on a set of 20 semantic scales. We elicited multiple responses in separate chats, analogous to having multiple human raters. ChatGPT generated semantic profiles that only partially correlated with human ratings, yet showed robust agreement along well-known psychophysical dimensions of musical sounds such as brightness (bright-dark) and pitch height (deep-high). Exploratory factor analysis suggested the same dimensionality but different spatial configuration of a latent factor space between the chatbot and human ratings. Unexpectedly, the chatbot showed degrees of internal variability that were comparable in magnitude to that of human ratings. Our work highlights the potential of LLMs to capture salient dimensions of human sensory experience.},
 	author = {Siedenburg, Kai and Saitis, Charalampos},
 	journal = {arXiv preprint},
 	arxiv = {2304.07830},
-	title = {The language of sounds unheard: Exploring sensory semantic knowledge in large language models},
+	title = {The language of sounds unheard: Exploring musical timbre semantics of large language models},
 	year = {2023}}
 
 @article{vjosa_PsyArXiv,
@@ -88,6 +97,7 @@
 	year = {2023},
 	author = {Hayes, Ben and Saitis, Charalampos and Fazekas, Gy{\"o}rgy},
 	arxiv = {2210.14476},
+	pdf = {Sinusoidal_Frequency_Estimation_by_Gradient_Descent.pdf},
 	title = {Sinusoidal Frequency Estimation by Gradient Descent},
 	booktitle = {48th IEEE International Conference on Acoustics, Speech and Signal Processing},
 	abstract = {Sinusoidal parameter estimation is a fundamental task in applications from spectral analysis to time-series forecasting. Estimating the sinusoidal frequency parameter by gradient descent is, however, often impossible as the error function is non-convex and densely populated with local minima. The growing family of differentiable signal processing methods has therefore been unable to tune the frequency of oscillatory components, preventing their use in a broad range of applications. This work presents a technique for joint sinusoidal frequency and amplitude estimation using the Wirtinger derivatives of a complex exponential surrogate and any first order gradient-based optimiser, enabling end-to-end training of neural network controllers for unconstrained sinusoidal models.}}
@@ -97,6 +107,7 @@
 	year = {2023},
 	author = {Diaz, Rodrigo and Hayes, Ben and Saitis, Charalampos and Fazekas, Gy{\"o}rgy and Sandler, Mark},
 	arxiv = {2210.15306},
+	pdf = {Rigid-Body_Sound_Synthesis_with_Differentiable_Modal_Resonators.pdf},
 	title = {Rigid-Body Sound Synthesis with Differentiable Modal Resonators},
 	booktitle = {48th IEEE International Conference on Acoustics, Speech and Signal Processing},
 	abstract = {Physical models of rigid bodies are used for sound synthesis in applications from virtual environments to music production. Traditional methods, such as modal synthesis, often rely on computationally expensive numerical solvers, while recent deep learning approaches are limited by post-processing of their results. In this work, we present a novel end-to-end framework for training a deep neural network to generate modal resonators for a given 2D shape and material using a bank of differentiable IIR filters. We demonstrate our method on a dataset of synthetic objects but train our model using an audio-domain objective, paving the way for physically-informed synthesisers to be learned directly from recordings of real-world objects.}}
