@@ -6,6 +6,63 @@
 
 %% Saved with string encoding Unicode (UTF-8) 
 
+@article{jincheng_preprint_2023_a,
+	abbr = {Preprint},
+	author = {Zhang, Jincheng and Tang, Jingjing and Saitis, Charalampos and Fazekas, Gy{\"o}rgy},
+	title = {Composer Style-specific Symbolic Music Generation Using Vector Quantized Discrete Diffusion Models},
+	journal = {arXiv},
+	abstract = {Emerging Denoising Diffusion Probabilistic Models (DDPM) have become increasingly utilised because of promising results they have achieved in diverse generative tasks with continuous data, such as image and sound synthesis. Nonetheless, the success of diffusion models has not been fully extended to discrete symbolic music. We propose to combine a vector quantized variational autoencoder (VQ-VAE) and discrete diffusion models for the generation of symbolic music with desired composer styles. The trained VQ-VAE can represent symbolic music as a sequence of indexes that correspond to specific entries in a learned codebook. Subsequently, a discrete diffusion model is used to model the VQ-VAE's discrete latent space. The diffusion model is trained to generate intermediate music sequences consisting of codebook indexes, which are then decoded to symbolic music using the VQ-VAE's decoder. The results demonstrate our model can generate symbolic music with target composer styles that meet the given conditions with a high accuracy of 72.36\%.},
+	arxiv = {2310.14044},
+	year = {2023}}
+
+@article{jincheng_preprint_2023_b,
+	abbr = {Preprint},
+	author = {Zhang, Jincheng and Fazekas, Gy{\"o}rgy and Saitis, Charalampos},
+	title = {Fast Diffusion GAN Model for Symbolic Music Generation Controlled by Emotions},
+	journal = {arXiv},
+	abstract = {Diffusion models have shown promising results for a wide range of generative tasks with continuous data, such as image and audio synthesis. However, little progress has been made on using diffusion models to generate discrete symbolic music because this new class of generative models are not well suited for discrete data while its iterative sampling process is computationally expensive. In this work, we propose a diffusion model combined with a Generative Adversarial Network, aiming to (i) alleviate one of the remaining challenges in algorithmic music generation which is the control of generation towards a target emotion, and (ii) mitigate the slow sampling drawback of diffusion models applied to symbolic music generation. We first used a trained Variational Autoencoder to obtain embeddings of a symbolic music dataset with emotion labels and then used those to train a diffusion model. Our results demonstrate the successful control of our diffusion model to generate symbolic music with a desired emotion. Our model achieves several orders of magnitude improvement in computational cost, requiring merely four time steps to denoise while the steps required by current state-of-the-art diffusion models for symbolic music generation is in the order of thousands.},
+	arxiv = {2310.14040},
+	year = {2023}}
+
+@article{ben_DDSPreview_2023,
+	abbr = {Preprint},
+	author = {Hayes, Ben and Shier, Jordie and Fazekas, Gy{\"o}rgy and McPherson, Andrew and Saitis, Charalampos},
+	title = {A Review of Differentiable Digital Signal Processing for Music & Speech Synthesis},
+	journal = {arXiv},
+	abstract = {The term ``differentiable digital signal processing'' describes a family of techniques in which loss function gradients are backpropagated through digital signal processors, facilitating their integration into neural networks. This article surveys the literature on differentiable audio signal processing, focusing on its use in music & speech synthesis. We catalogue applications to tasks including music performance rendering, sound matching, and voice transformation, discussing the motivations for and implications of the use of this methodology. This is accompanied by an overview of digital signal processing operations that have been implemented differentiably. Finally, we highlight open challenges, including optimisation pathologies, robustness to real-world conditions, and design trade-offs, and discuss directions for future research.},
+	arxiv = {2308.15422},
+	year = {2023}}
+
+@inproceedings{bleiz_cscw_2023,
+	abbr = {CSCW},
+	author = {Del Sette, Bleiz Macsen and Carnes, Dawn and Saitis, Charalampos},
+	title = {Sound of Care: Towards a Co-Operative AI Digital Pain Companion to Support People with Chronic Primary Pain},
+	year = {2023},
+	abstract = {This work investigates the role of sound and technology in the everyday lives of people with chronic primary pain. Our primary goal was to inform the first participatory design workshop of Sound of Care, a new eHealth system for pain self-management. We used an ethical stakeholder analysis to inform a round of exploratory interviews, run with 8 participants including people with chronic primary pain, carers, and healthcare workers. We found that sound and technology serve as important but often unstructured tool, helping with distraction, mood regulation and sleep. The experience of pain and musical preferences are highly personal, and communicating or understanding pain can be challenging, even within family members. To address the gaps in current chronic pain self-management care, we propose the use a sound-based AI-driven system, a Digital Pain Companion, using sonification to create a shared decision-making space, enhancing agency over treatment in a co-operative care environment.},
+	booktitle = {Companion Publication of the 2023 Conference on Computer Supported Cooperative Work and Social Computing},
+	pages = {283–288},
+	pdf = {https://uco.repository.guildhe.ac.uk/id/eprint/199/1/Sound%20of%20Care.pdf},
+	location = {Minneapolis, MN, USA}}
+
+@inproceedings{luca_ismir_2023,
+	abbr = {ISMIR},
+	year = {2023},
+	author = {Marinelli, Luca and Fazekas, Gy{\"o}rgy and Saitis, Charalampos},
+	title = {Gender-Coded Sound: Analysing the Gendering of Music in Toy Commercials via Multi-Task Learning},
+	booktitle = {24th International Society for Music Information Retrieval Conference},
+	pdf = {https://www.researchgate.net/profile/Luca-Marinelli-5/publication/372279840_Gender-Coded_Sound_Analysing_the_Gendering_of_Music_in_Toy_Commercials_via_Multi-Task_Learning/links/64ad781295bbbe0c6e2cc1ec/Gender-Coded-Sound-Analysing-the-Gendering-of-Music-in-Toy-Commercials-via-Multi-Task-Learning.pdf},
+	abstract = {Music can convey ideological stances, and gender is just one of them. Evidence from musicology and psychology research shows that gender-loaded messages can be reliably encoded and decoded via musical sounds. However, much of this evidence comes from examining music in isolation, while studies of the gendering of music within multimodal communicative events are sparse. In this paper, we outline a method to automatically analyse how music in TV advertising aimed at children may be deliberately used to reinforce traditional gender roles. Our dataset of 606 commercials included music-focused mid-level perceptual features, multimodal aesthetic emotions, and content analytical items. Despite its limited size, and because of the extreme gender polarisation inherent in toy advertisements, we obtained noteworthy results by leveraging multi-task transfer learning on our densely annotated dataset. The models were trained to categorise commercials based on their intended target audience, specifically distinguishing between masculine, feminine, and mixed audiences. Additionally, to provide explainability for the classification in gender targets, the models were jointly trained to perform regressions on emotion ratings across six scales, and on mid-level musical perceptual attributes across twelve scales. Standing in the context of MIR, computational social studies and critical analysis, this study may benefit not only music scholars but also advertisers, policymakers, and broadcasters.},
+	video = {https://www.youtube.com/watch?v=d96uEzo6VG4}}
+
+@inproceedings{jordie_FA_2023,
+	abbr = {{Forum Acusticum}},
+	abstract = {Differentiable digital signal processing (DDSP) techniques, including methods for audio synthesis, have gained attention in recent years and lend themselves to interpretability in the parameter space. However, current differentiable synthesis methods have not explicitly sought to model the transient portion of signals, which is important for percussive sounds. In this work, we present a unified synthesis framework aiming to address transient generation and percussive synthesis within a DDSP framework. To this end, we propose a model for percussive synthesis that builds on sinusoidal modeling synthesis and incorporates a modulated temporal convolutional network for transient generation. We use a modified sinusoidal peak picking algorithm to generate time-varying non-harmonic sinusoids and pair it with differentiable noise and transient encoders that are jointly trained to reconstruct drumset sounds. We compute a set of reconstruction metrics using a large dataset of acoustic and electronic percussion samples that show that our method leads to improved onset signal reconstruction for membranophone percussion instruments.},
+	address = {Turin, Italy},
+	author = {Shier, Jordie and Caspe, Franco and Robertson, Andrew and Sandler, Mark and Saitis, Charalampos and McPherson, Andrew},
+	booktitle = {{10th Convention of the European Acoustics Association}},
+	pdf = {https://jordieshier.com/assets/pdf/shier2023differentiable_paper.pdf},
+	title = {Differentiable Modelling of Percussive Audio with Transient and Spectral Synthesis},
+	year = {2023}}
 
 @inproceedings{ben_iclr_2023,
 	abbr = {ICLR},
@@ -75,19 +132,19 @@
 	abstract = {}}
 
 @article{charis_cgpt_arXiv,
-	abbr = {arXiv},
+	abbr = {Preprint},
 	abstract = {Semantic dimensions of sound have been playing a central role in understanding the nature of auditory sensory experience as well as the broader relation between perception, language, and meaning. Accordingly, and given the recent proliferation of large language models (LLMs), here we asked whether such models exhibit an organisation of perceptual semantics similar to those observed in humans. Specifically, we prompted ChatGPT, a chatbot based on a state-of-the-art LLM, to rate musical instrument sounds on a set of 20 semantic scales. We elicited multiple responses in separate chats, analogous to having multiple human raters. ChatGPT generated semantic profiles that only partially correlated with human ratings, yet showed robust agreement along well-known psychophysical dimensions of musical sounds such as brightness (bright-dark) and pitch height (deep-high). Exploratory factor analysis suggested the same dimensionality but different spatial configuration of a latent factor space between the chatbot and human ratings. Unexpectedly, the chatbot showed degrees of internal variability that were comparable in magnitude to that of human ratings. Our work highlights the potential of LLMs to capture salient dimensions of human sensory experience.},
 	author = {Siedenburg, Kai and Saitis, Charalampos},
-	journal = {arXiv preprint},
+	journal = {arXiv},
 	arxiv = {2304.07830},
 	title = {The language of sounds unheard: Exploring musical timbre semantics of large language models},
 	year = {2023}}
 
 @article{vjosa_PsyArXiv,
-	abbr = {PsyArXiv},
+	abbr = {Preprint},
 	abstract = {Music is a fundamental element in every culture, serving as a universal means of expressing our emotions, feelings, and beliefs. This work investigates the link between our moral values and musical choices through lyrics and audio analyses. We align the psychometric scores of 1,480 participants to acoustics and lyrics features obtained from the top 5 songs of their preferred music artists from Facebook Page Likes. We employ a variety of lyric text processing techniques, including lexicon-based approaches and BERT-based embeddings, to identify each song's narrative, moral valence, attitude, and emotions. In addition, we extract both low- and high-level audio features to comprehend the encoded information in participants' musical choices and improve the moral inferences. We propose a Machine Learning approach and assess the predictive power of lyrical and acoustic features separately and in a multimodal framework for predicting moral values. Results indicate that lyrics and audio features from the artists people like inform us about their morality. Though the most predictive features vary per moral value, the models that utilised a combination of lyrics and audio characteristics were the most successful in predicting moral values, outperforming the models that only used basic features such as user demographics, the popularity of the artists, and the number of likes per user. Audio features boosted the accuracy in the prediction of empathy and equality compared to textual features, while the opposite happened for hierarchy and tradition, where higher prediction scores were driven by lyrical features. This demonstrates the importance of both lyrics and audio features in capturing moral values. The insights gained from our study have a broad range of potential uses, including customising the music experience to meet individual needs, music rehabilitation, or even effective communication campaign crafting.},
 	author = {Preniqi, Vjosa and Kalimeri, Kyriaki and Saitis, Charalampos},
-	journal = {PsyArXiv preprint},
+	journal = {PsyArXiv},
 	psyarxiv = {xeuty},
 	title = {Soundscapes of morality: Linking music preferences and moral values through lyrics and audio},
 	year = {2023}}
@@ -230,10 +287,10 @@
 	year = {2021}}
 
 @article{senses_survey,
-	abbr = {PsyArXiv},
+	abbr = {Preprint},
 	abstract = {Academic disciplines spanning cognitive science, art, and music have made strides in understanding how humans sense and experience the world. We now have a better scientific understanding of how human sensation and perception function both in the brain and in interaction than ever before. However, there is little research on how this high level scientific understanding is translated into knowledge for the public more widely. We present descriptive results from a simple survey and compare how public understanding and perception of sensory experience lines up with scientific understanding. Results show that even in a sample with fairly high educational attainment, many respondents were unaware of fairly common forms of sensory variation. In line with the well-documented under representation of sign languages within linguistics, respondents tended to under-estimate the number of sign languages in the world. We outline how our results represent gaps in public understanding of sensory variation, and argue that filling these gaps can form an important early intervention, acting as a basic foundation for improving acceptance, inclusivity, and accessibility for cognitively diverse populations.},
 	author = {Cuskley, Christine and Saitis, Charalampos},
-	journal = {PsyArXiv preprint},
+	journal = {PsyArXiv},
 	psyarxiv = {ghcxv},
 	title = {What do people know about sensation and perception? Understanding perceptions of sensory experience},
 	year = {2020}}
