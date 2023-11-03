@@ -3,7 +3,7 @@ layout: page
 title: Projects
 permalink: /projects/
 description: Work by COMMA Lab members
-nav: true
+nav: false
 nav_order: 2
 horizontal: false
 ---
