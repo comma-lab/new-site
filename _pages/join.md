@@ -35,7 +35,6 @@ If you are interested in joining us, please reach out with a CV and short propos
 In some occasions we accept self-funded PhD researchers. 
 
 * The AIM CDT welcomes applicants that are self-funded or sponsored through a national scheme. 
-* C4DM also hosts the [PhD in Media and Arts Technology (MAT)](https://mat.qmul.ac.uk/programmes/phd-programme/) programme. MAT does not provide funding but welcomes applicants that are self-funded or sponsored through a national scheme or LAHP. 
 
 <!-- #### Masters students -->
 
