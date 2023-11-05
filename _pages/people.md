@@ -8,9 +8,8 @@ nav_order: 1
 groups: [Members]
 ---
 
-<!-- pages/projects.md -->
+<!-- pages/projects.md 
 <div class="projects">
-
 {%- for group in page.groups -%}
     {%- assign sorted_members = site.people | sort: "order" | where: "group", group %}
     {%- unless sorted_members == empty -%}
@@ -22,17 +21,29 @@ groups: [Members]
       </div>
     {%- endunless -%}
 {%- endfor -%}
+</div> -->
 
-</div>
+<h3 class="post-title"><b>Members</b></h3>
+
+* [<b>Dr Charalampos Saitis</b>](http://www.eecs.qmul.ac.uk/people/profiles/saitischaralampos.html)
+* [<b>Luca Marinelli</b>](/people/luca/)
+* [<b>Ben Hayes</b>](https://benhayes.net/)
+* [<b>Vjosa Preniqi</b>](/people/vjosa/)
+* [<b>Bleiz Macsen Del Sette</b>](/people/bleiz/)
+* <b>[Remi Falowo</b>](/people/remi/)
+* <b>Maryam Torshizi</b>
+* [<b>Jincheng Zhang</b>](/people/jincheng/)
+* [<b>Jordie Shier</b>](https://jordieshier.com/)
+* [<b>Chengye Wu</b>](/people/chengye/)
+* <b>Haokun Tian</b>
 
 <h3 class="post-title"><b>Associate members</b></h3>
 
-* [Dr Asterios Zacharakis</b>](https://asteriszacharakis.wixsite.com/science)
+* [<b>Dr Asterios Zacharakis</b>](https://asteriszacharakis.wixsite.com/science)
 * <b>Rodrigo Diaz</b>
 * <b>Nelly Garcia</b>
 * [<b>Sebastian Löbbers</b>](https://sebastianlobbers.com/)
 * [<b>Cyrus Vahidi</b>](https://cyrusvahidi.com/)
-
 
 <h3 class="post-title"><b>Former visitors</b></h3>
 
@@ -40,6 +51,11 @@ groups: [Members]
 
 <h3 class="post-title"><b>Former project students</b></h3>
 
+<!-- 2022-23 -->
+* <b>Ryan Reed</b> (QMUL MSc project 2023)
+* <b>Abhinav Bora</b> (QMUL MSc project 2023)
+* <b>Arnav Luthra</b> (QMUL MSc project 2023)
+* <b>Gewenxin Yu</b> (QMUL MSc project 2023)
 <!-- 2021-22 -->
 * <b>Samuel Morgan</b> (QMUL MSc project 2022)
 * <b>Daniel Hard</b> (QMUL MSc project 2022)
