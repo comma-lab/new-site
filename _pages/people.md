@@ -30,7 +30,7 @@ nav_order: 1
 * [<b>Ben Hayes</b>](https://benhayes.net/)
 * [<b>Vjosa Preniqi</b>](/people/vjosa/)
 * [<b>Bleiz Macsen Del Sette</b>](/people/bleiz/)
-* <b>[Remi Falowo</b>](/people/remi/)
+* [<b>Remi Falowo</b>](/people/remi/)
 * <b>Maryam Torshizi</b>
 * [<b>Jincheng Zhang</b>](/people/jincheng/)
 * [<b>Jordie Shier</b>](https://jordieshier.com/)
