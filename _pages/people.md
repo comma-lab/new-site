@@ -5,12 +5,12 @@ hide_header: false
 permalink: /people/
 nav: true
 nav_order: 1
-groups: [Members]
+# groups: [Members]
 ---
 
-<!-- pages/projects.md 
-<div class="projects">
-{%- for group in page.groups -%}
+<!-- pages/projects.md -->
+<!-- <div class="projects"> -->
+<!-- {%- for group in page.groups -%}
     {%- assign sorted_members = site.people | sort: "order" | where: "group", group %}
     {%- unless sorted_members == empty -%}
       <h3 class="post-title"><b>{{ group }}</b></h3>
@@ -20,8 +20,8 @@ groups: [Members]
         {%- endfor %}
       </div>
     {%- endunless -%}
-{%- endfor -%}
-</div> -->
+{%- endfor -%} -->
+<!-- </div> -->
 
 <h3 class="post-title"><b>Members</b></h3>
 
