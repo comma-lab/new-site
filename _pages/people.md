@@ -5,7 +5,7 @@ hide_header: false
 permalink: /people/
 nav: true
 nav_order: 1
-groups: [Members, Associate members, Master's Students, Visitors]
+groups: [Members]
 ---
 
 <!-- pages/projects.md -->
@@ -25,7 +25,18 @@ groups: [Members, Associate members, Master's Students, Visitors]
 
 </div>
 
+<h3 class="post-title"><b>Associate members</b></h3>
 
+* [Dr Asterios Zacharakis</b>](https://asteriszacharakis.wixsite.com/science)
+* <b>Rodrigo Diaz</b>
+* <b>Nelly Garcia</b>
+* [<b>Sebastian Löbbers</b>](https://sebastianlobbers.com/)
+* [<b>Cyrus Vahidi</b>](https://cyrusvahidi.com/)
+
+
+<h3 class="post-title"><b>Former visitors</b></h3>
+
+* [<b>Dr Montserrat Pàmies-Vilà</b>](https://iwk.mdw.ac.at/montserrat-pamies-vila/) 
 
 <h3 class="post-title"><b>Former project students</b></h3>
 
