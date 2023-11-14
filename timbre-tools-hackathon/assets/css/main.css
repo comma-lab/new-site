@@ -2986,6 +2986,10 @@ input, select, textarea {
 				height: 20em;
 			}
 
+			.image.logo {
+				height: 7em;
+			}
+
 		/* Header */
 
 			#header {
@@ -3177,6 +3181,10 @@ input, select, textarea {
 
 			.image.main {
 				height: 12em;
+			}
+
+			.image.logo {
+				height: 4em;
 			}
 
 		/* Section/Article */
