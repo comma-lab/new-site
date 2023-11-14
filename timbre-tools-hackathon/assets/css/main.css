@@ -2468,6 +2468,13 @@ input, select, textarea {
 	width: 56%;
 }
 
+/* for href */
+
+.long-link {
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+}
+
 /* Table */
 
 	.table-wrapper {
