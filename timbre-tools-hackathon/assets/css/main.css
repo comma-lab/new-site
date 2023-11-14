@@ -2407,7 +2407,7 @@ input, select, textarea {
 			padding: 0.35em 0 0 3.5em;
 			position: relative;
 			vertical-align: top;
-			width: 100%;
+/*			width: 100%;*/
 		}
 
 			ul.feature-icons li:before {
@@ -2457,6 +2457,16 @@ input, select, textarea {
 			ul.icons li .icon:before {
 				font-size: 1.25em;
 			}
+
+/* custom width */
+
+.custom-width-left {
+	width: 38%;
+}
+
+.custom-width-right {
+	width: 56%;
+}
 
 /* Table */
 
@@ -3300,6 +3310,14 @@ input, select, textarea {
 				-ms-transform: translateX(0);
 				transform: translateX(0);
 			}*/
+
+			.custom-width-left {
+				width: 100%;
+			}
+
+			.custom-width-right {
+				width: 100%;
+			}
 
 	}
 
