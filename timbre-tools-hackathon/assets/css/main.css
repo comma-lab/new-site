@@ -114,10 +114,10 @@ input, select, textarea {
 		-webkit-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
 		-ms-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
 		transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
-		border-bottom: solid 1px black;
+/*		border-bottom: solid 1px black;*/
 /*		color: inherit;*/
-		color: black;
-		font-weight: bold;
+		color: royalblue;
+/*		font-weight: bold;*/
 /*		font-style: italic;*/
 		text-decoration: none;
 	}
