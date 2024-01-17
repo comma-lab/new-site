@@ -35,7 +35,7 @@ nav_order: 1
 * [<b>Jincheng Zhang</b>](/people/jincheng/)
 * [<b>Jordie Shier</b>](https://jordieshier.com/)
 * [<b>Chengye Wu</b>](/people/chengye/)
-* <b>Haokun Tian</b>
+* [<b>Haokun Tian</b>](https://tiianhk.github.io)
 
 <h4 class="post-title"><b>Associate members</b></h4>
 
