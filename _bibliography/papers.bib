@@ -6,15 +6,77 @@
 
 %% Saved with string encoding Unicode (UTF-8) 
 
+
+@inproceedings{charis_daga_2024,
+	abbr = {DAGA},
+	author = {Reuter, Christoph and Saitis, Charalampos and Czedik-Eysenberg, Isabella and Siedenburg, Kai},
+	booktitle = {50. Deutsche Jahrestagung für Akustik},
+	title = {Giving instruments a voice: Are there vowel-like qualities in the timbres of musical instruments?},
+	abstract = {Scholars have long explored similarities between musical instrument sounds and vowel qualities of human voice sounds. From a psychoacoustic standpoint, however, this relationship remains poorly understood. Here, we seek to address whether musical instruments truly exhibit vowel-like qualities, whether specific instruments, registers, and dynamic levels stand out, and what the acoustical correlates of this relation might be. In an online experiment, German native speakers listen to the sounds of oboe, clarinet, flute, bassoon, trumpet, trombone, French horn, tuba, violin, viola, cello, and double bass in three registers and two dynamic levels. Their task is to assign the following vowels and umlauts (in German pronunciation) to instrument sounds: A, Å, E, I, O, U, Ä, Ö, and Ü. Furthermore, participants rate the strength of vowel similarity. Preliminary analyses (of n=43 participants) suggest that although vowel similarity is rated approximately equally high, vowel associations do not seem to be equally consistent for different instruments. Particular similarity is observed between bassoon and tuba with the vowel O, oboe and violin with the vowel I. Audio features will be used to model vowel similarity.},
+	year = {2024}}
+
+@inproceedings{luca_icassp_xai_2024,
+	abbr = {ICASSP},
+	year = {2024},
+	author = {Marinelli, Luca and Saitis, Charalampos},
+	pdf = {https://qmro.qmul.ac.uk/xmlui/handle/123456789/94522},
+	title = {Explainable Modeling of Gender-Targeting Practices in Toy Advertising Sound and Music},
+	booktitle = {1st Workshop on Explainable Machine Learning for Speech and Audio, 49th IEEE International Conference on Acoustics, Speech and Signal Processing},
+	abstract = {This study examines gender coding in sound and music, in a context where music plays a supportive role to other modalities, such as in toy advertising. We trained a series of binary XGBoost classifiers on handcrafted features extracted from the soundtracks and then performed SAGE and SHAP analyses to identify key audio features in predicting the gender target of the ads. Our analysis reveals that timbral dimensions play a prominent role and that commercials aimed at girls tend to be more harmonious and rhythmical, with a broader and smoother spectrum, while those targeting boys are characterised by higher loudness, spectral entropy, and roughness. Mixed audience commercials instead appear to be as rhythmical as girls-only ads, although slower, but show intermediate characteristics in terms of harmonicity and roughness. This study highlights the importance of music in shaping societal norms and the need for greater accountability in its use in marketing and other industries. We provide a public repository containing all code and data used in this study.}}
+
+@article{ben_DDSP_Review_2024,
+	abbr = {Frontiers},
+	author = {Hayes, Ben and Shier, Jordie and Fazekas, Gy{\"o}rgy and McPherson, Andrew and Saitis, Charalampos},
+	title = {A Review of Differentiable Digital Signal Processing for Music & Speech Synthesis},
+	journal = {Frontiers in Signal Processing},
+	abstract = {The term ``differentiable digital signal processing'' describes a family of techniques in which loss function gradients are backpropagated through digital signal processors, facilitating their integration into neural networks. This article surveys the literature on differentiable audio signal processing, focusing on its use in music and speech synthesis. We catalogue applications to tasks including music performance rendering, sound matching, and voice transformation, discussing the motivations for and implications of the use of this methodology. This is accompanied by an overview of digital signal processing operations that have been implemented differentiably, which is further supported by a web book containing practical advice on differentiable synthesiser programming (https://intro2ddsp.github.io/). Finally, we highlight open challenges, including optimisation pathologies, robustness to real-world conditions, and design trade-offs, and discuss directions for future research.},
+	year = {2024}
+	pdf = {Hayes_DDSP_Review.pdf}}
+
+@inproceedings{bleiz_chime_2023,
+	abbr = {CHIME},
+	author = {Del Sette, Bleiz Macsen and Saitis, Charalampos},
+	booktitle = {Annual Workshop of the Music and Human-Computer Interaction Networks (CHIME)},
+	title = {A body-centred perspective to chronic pain self-management using generative sonification},
+	abstract = {DelSette_CHIME_2023.pdf},
+	year = {2023}}
+
+@inproceedings{charis_chime_2023,
+	abbr = {CHIME},
+	author = {Saitis, Charalampos and Tian, Haokun, and Shier, Jordie and Del Sette, Bleiz Macsen},
+	booktitle = {Annual Workshop of the Music and Human-Computer Interaction Networks (CHIME)},
+	title = {Timbre Tools for the Digital Instrument Maker},
+	abstract = {Saitis_CHIME_2023.pdf},
+	poster = {CHIME_Poster_SAITIS.pdf},
+	year = {2023}}
+
 @inproceedings{haokun_ismir_2023,
   abbr = {ISMIR LBD},
   title = {Beat and Downbeat Tracking with Generative Embeddings},
   author = {Tian, Haokun and Liu, Kun and Fuentes, Magdalena},
-  booktitle = {Late Breaking Demo of the 24nd International Society for Music Information Retrieval Conference (ISMIR)},
+  booktitle = {Late Breaking Demo of the 24nd International Society for Music Information Retrieval Conference},
   year = {2023},
   abstract = {It is standard practice to use spectrograms as input features for discriminative MIR tasks. However, recent research showed using representations produced by Jukebox (a music language model) led to better model performance. This was tested on music tagging, genre classification, key detection, emotion recognition, and music transcription. In this paper, we test it on beat and downbeat tracking. Specifically, we compare compressed Jukebox embeddings with spectrograms as input to a model that jointly predicts beat, downbeat, and tempo. Experiments show that the two inputs bring comparable results for beat tracking, while using Jukebox embeddings leads to significant improvements for downbeat tracking.},
   pdf = {http://ismir2023program.ismir.net/lbd_363.html},
   poster = {http://ismir2023program.ismir.net/lbd_363.html}}
+
+@article{vjosa_soundscapes_2023,
+	abbr = {PLOS ONE},
+	abstract = {Music is a fundamental element in every culture, serving as a universal means of expressing our emotions, feelings, and beliefs. This work investigates the link between our moral values and musical choices through lyrics and audio analyses. We align the psychometric scores of 1,480 participants to acoustics and lyrics features obtained from the top 5 songs of their preferred music artists from Facebook Page Likes. We employ a variety of lyric text processing techniques, including lexicon-based approaches and BERT-based embeddings, to identify each song’s narrative, moral valence, attitude, and emotions. In addition, we extract both low- and high-level audio features to comprehend the encoded information in participants’ musical choices and improve the moral inferences. We propose a Machine Learning approach and assess the predictive power of lyrical and acoustic features separately and in a multimodal framework for predicting moral values. Results indicate that lyrics and audio features from the artists people like inform us about their morality. Though the most predictive features vary per moral value, the models that utilised a combination of lyrics and audio characteristics were the most successful in predicting moral values, outperforming the models that only used basic features such as user demographics, the popularity of the artists, and the number of likes per user. Audio features boosted the accuracy in the prediction of empathy and equality compared to textual features, while the opposite happened for hierarchy and tradition, where higher prediction scores were driven by lyrical features. This demonstrates the importance of both lyrics and audio features in capturing moral values. The insights gained from our study have a broad range of potential uses, including customising the music experience to meet individual needs, music rehabilitation, or even effective communication campaign crafting.},
+	author = {Preniqi, Vjosa and Kalimeri, Kyriaki and Saitis, Charalampos},
+	journal = {PLOS ONE},
+	pdf = {Preniqi_Soundscapes-of-Morality.pdf},
+	title = {Soundscapes of morality: Linking music preferences and moral values through lyrics and audio},
+	year = {2023}}
+
+@inproceedings{vjosa_cmmr-book_2023,
+  abbr = {CMMR},
+  title = {Modelling Moral Traits with Music Listening Preferences and Demographics},
+  author = {Preniqi, Vjosa and Kalimeri, Kyriaki and Saitis, Charalampos},
+  booktitle = {Music in the AI Era. CMMR 2021. Springer Lecture Notes in Computer Science, vol 13770},
+  year = {2023},
+  abstract = {It is standard practice to use spectrograms as input features for discriminative MIR tasks. However, recent research showed using representations produced by Jukebox (a music language model) led to better model performance. This was tested on music tagging, genre classification, key detection, emotion recognition, and music transcription. In this paper, we test it on beat and downbeat tracking. Specifically, we compare compressed Jukebox embeddings with spectrograms as input to a model that jointly predicts beat, downbeat, and tempo. Experiments show that the two inputs bring comparable results for beat tracking, while using Jukebox embeddings leads to significant improvements for downbeat tracking.},
+  pdf = {Preniqi_CMMR_SpringerLNCS_2023.pdf}}
 
 @article{jincheng_preprint_2023_a,
 	abbr = {Preprint},
@@ -32,15 +94,6 @@
 	journal = {arXiv},
 	abstract = {Diffusion models have shown promising results for a wide range of generative tasks with continuous data, such as image and audio synthesis. However, little progress has been made on using diffusion models to generate discrete symbolic music because this new class of generative models are not well suited for discrete data while its iterative sampling process is computationally expensive. In this work, we propose a diffusion model combined with a Generative Adversarial Network, aiming to (i) alleviate one of the remaining challenges in algorithmic music generation which is the control of generation towards a target emotion, and (ii) mitigate the slow sampling drawback of diffusion models applied to symbolic music generation. We first used a trained Variational Autoencoder to obtain embeddings of a symbolic music dataset with emotion labels and then used those to train a diffusion model. Our results demonstrate the successful control of our diffusion model to generate symbolic music with a desired emotion. Our model achieves several orders of magnitude improvement in computational cost, requiring merely four time steps to denoise while the steps required by current state-of-the-art diffusion models for symbolic music generation is in the order of thousands.},
 	arxiv = {2310.14040},
-	year = {2023}}
-
-@article{ben_DDSPreview_2023,
-	abbr = {Preprint},
-	author = {Hayes, Ben and Shier, Jordie and Fazekas, Gy{\"o}rgy and McPherson, Andrew and Saitis, Charalampos},
-	title = {A Review of Differentiable Digital Signal Processing for Music & Speech Synthesis},
-	journal = {arXiv},
-	abstract = {The term ``differentiable digital signal processing'' describes a family of techniques in which loss function gradients are backpropagated through digital signal processors, facilitating their integration into neural networks. This article surveys the literature on differentiable audio signal processing, focusing on its use in music & speech synthesis. We catalogue applications to tasks including music performance rendering, sound matching, and voice transformation, discussing the motivations for and implications of the use of this methodology. This is accompanied by an overview of digital signal processing operations that have been implemented differentiably. Finally, we highlight open challenges, including optimisation pathologies, robustness to real-world conditions, and design trade-offs, and discuss directions for future research.},
-	arxiv = {2308.15422},
 	year = {2023}}
 
 @inproceedings{bleiz_cscw_2023,
@@ -150,15 +203,6 @@
 	journal = {arXiv},
 	arxiv = {2304.07830},
 	title = {The language of sounds unheard: Exploring musical timbre semantics of large language models},
-	year = {2023}}
-
-@article{vjosa_PsyArXiv,
-	abbr = {Preprint},
-	abstract = {Music is a fundamental element in every culture, serving as a universal means of expressing our emotions, feelings, and beliefs. This work investigates the link between our moral values and musical choices through lyrics and audio analyses. We align the psychometric scores of 1,480 participants to acoustics and lyrics features obtained from the top 5 songs of their preferred music artists from Facebook Page Likes. We employ a variety of lyric text processing techniques, including lexicon-based approaches and BERT-based embeddings, to identify each song's narrative, moral valence, attitude, and emotions. In addition, we extract both low- and high-level audio features to comprehend the encoded information in participants' musical choices and improve the moral inferences. We propose a Machine Learning approach and assess the predictive power of lyrical and acoustic features separately and in a multimodal framework for predicting moral values. Results indicate that lyrics and audio features from the artists people like inform us about their morality. Though the most predictive features vary per moral value, the models that utilised a combination of lyrics and audio characteristics were the most successful in predicting moral values, outperforming the models that only used basic features such as user demographics, the popularity of the artists, and the number of likes per user. Audio features boosted the accuracy in the prediction of empathy and equality compared to textual features, while the opposite happened for hierarchy and tradition, where higher prediction scores were driven by lyrical features. This demonstrates the importance of both lyrics and audio features in capturing moral values. The insights gained from our study have a broad range of potential uses, including customising the music experience to meet individual needs, music rehabilitation, or even effective communication campaign crafting.},
-	author = {Preniqi, Vjosa and Kalimeri, Kyriaki and Saitis, Charalampos},
-	journal = {PsyArXiv},
-	psyarxiv = {xeuty},
-	title = {Soundscapes of morality: Linking music preferences and moral values through lyrics and audio},
 	year = {2023}}
 
 @inproceedings{ben_icassp_2023,
@@ -715,6 +759,15 @@
 	selected = {false},
 	title = {Auditory brightness perception investigated by unimodal and crossmodal interference},
 	year = {2022}}
+
+@book{Timbre_2023_proc,
+	abbr = {Timbre},
+	author = {Caetano, Marcelo and Wallmark, Zachary and Zacharakis, Asterios and Saitis, Charalampos and Siedenburg, Kai},
+	link = {https://drive.google.com/file/d/14AWI_ZL3LunXhO9DEmGznPAXnpYTKQhm/view?usp=sharing},
+	publisher = {The School of Music Studies, Aristotle University of Thessaloniki},
+	selected = {false},
+	title = {{Proceedings of the 3rd International Conference on Timbre}},
+	year = {2023}}
 
 @book{Timbre_2020_proc,
 	abbr = {Timbre},
