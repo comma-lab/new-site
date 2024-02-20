@@ -31,10 +31,8 @@ nav_order: 1
 * [<b>Vjosa Preniqi</b>](/people/vjosa/)
 * [<b>Bleiz Macsen Del Sette</b>](/people/bleiz/)
 * [<b>Remi Falowo</b>](/people/remi/)
-* <b>Maryam Torshizi</b>
 * [<b>Jincheng Zhang</b>](/people/jincheng/)
 * [<b>Jordie Shier</b>](https://jordieshier.com/)
-* [<b>Chengye Wu</b>](/people/chengye/)
 * [<b>Haokun Tian</b>](https://tiianhk.github.io)
 
 <h4 class="post-title"><b>Associate members</b></h4>
