@@ -2468,6 +2468,10 @@ input, select, textarea {
 	width: 56%;
 }
 
+.custom-width-half {
+	width: 48%;
+}
+
 /* for href */
 
 .long-link {
