@@ -27,13 +27,14 @@ nav_order: 1
 
 * [<b>Dr Charalampos Saitis</b>](http://www.eecs.qmul.ac.uk/people/profiles/saitischaralampos.html)
 * [<b>Luca Marinelli</b>](/people/luca/)
-* [<b>Ben Hayes</b>](https://benhayes.net/)
-* [<b>Vjosa Preniqi</b>](/people/vjosa/)
+* [<b>Ben Hayes</b>](https://benhayes.net/) (joint supervision with György Fazekas, C4DM)
+* [<b>Vjosa Preniqi</b>](/people/vjosa/) (joint supervision with Kyriaki Kalimeri, ISI Foundation)
 * [<b>Bleiz Macsen Del Sette</b>](/people/bleiz/)
 * [<b>Remi Falowo</b>](/people/remi/)
-* [<b>Jincheng Zhang</b>](/people/jincheng/)
-* [<b>Jordie Shier</b>](https://jordieshier.com/)
+* [<b>Jincheng Zhang</b>](/people/jincheng/) (joint supervision with György Fazekas, C4DM)
+* [<b>Jordie Shier</b>](https://jordieshier.com/) (joint supervision with Andrew McPherson, Imperial)
 * [<b>Haokun Tian</b>](https://tiianhk.github.io)
+* [<b>Ashley Noel-Hirst</b>](https://ashleynoelhirst.co.uk/) (joint supervision with Nick Bryan-Kinns, UAL)
 
 <h4 class="post-title"><b>Associate members</b></h4>
 
