@@ -35,22 +35,34 @@ nav_order: 1
 * [<b>Jordie Shier</b>](https://jordieshier.com/) (joint supervision with Andrew McPherson, Imperial)
 * [<b>Haokun Tian</b>](https://tiianhk.github.io)
 * [<b>Ashley Noel-Hirst</b>](https://ashleynoelhirst.co.uk/) (joint supervision with Nick Bryan-Kinns, UAL)
+* <b>Yorgos Velissaridis</b> (joint supervision with György Fazekas, C4DM)
 
 <h4 class="post-title"><b>Associate members</b></h4>
 
 * [<b>Dr Asterios Zacharakis</b>](https://asteriszacharakis.wixsite.com/science)
 * <b>Rodrigo Diaz</b>
-* <b>Nelly Garcia</b>
+* [<b>Nelly Garcia</b>](https://www.linkedin.com/in/nellyvags0906/?originalSubdomain=uk)
+* <b>Jinjie Shi</b>
 * [<b>Sebastian Löbbers</b>](https://sebastianlobbers.com/)
 * [<b>Cyrus Vahidi</b>](https://cyrusvahidi.com/)
+
+<h4 class="post-title"><b>Former members</b></h4>
+
+* <b>Chengye Wu</b>
+* <b>Maryam Torshizi</b> 
 
 <h4 class="post-title"><b>Former visitors</b></h4>
 
 * [<b>Dr Montserrat Pàmies-Vilà</b>](https://iwk.mdw.ac.at/montserrat-pamies-vila/) 
 
-<h4 class="post-title"><b>Former project students</b></h4>
+<h4 class="post-title"><b>Former UG/MSc project students</b></h4>
 
 <!-- 2022-23 -->
+
+* <b>Ben Heyderman</b> (QMUL MSc project 2024)
+* <b>Dmitriy Tsarev</b> (QMUL MSc project 2024)
+* <b>Rui Yang</b> (QMUL MSc project 2024)
+* <b>Abraz Atif</b> (QMUL MSc project 2024)
 * <b>Ryan Reed</b> (QMUL MSc project 2023)
 * <b>Abhinav Bora</b> (QMUL MSc project 2023)
 * <b>Arnav Luthra</b> (QMUL MSc project 2023)
