@@ -35,7 +35,7 @@ nav_order: 1
 * [<b>Jordie Shier</b>](https://jordieshier.com/) (joint supervision with Andrew McPherson, Imperial)
 * [<b>Haokun Tian</b>](https://tiianhk.github.io)
 * [<b>Ashley Noel-Hirst</b>](https://ashleynoelhirst.co.uk/) (joint supervision with Nick Bryan-Kinns, UAL)
-* <b>Yorgos Velissaridis</b> (joint supervision with György Fazekas, C4DM)
+* [<b>Yorgos Velissaridis</b>](https://github.com/GeorgeVeliss) (joint supervision with György Fazekas, C4DM)
 
 <h4 class="post-title"><b>Associate members</b></h4>
 
