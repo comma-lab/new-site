@@ -23,9 +23,12 @@ jobs:
         bundler-cache: true
     - name: Update Bundler
       run: gem install bundler
+    - name: Uninstall conflicting uri gem
+      run: gem uninstall uri -v 0.10.1
+    - name: Install required uri gem
+      run: gem install uri -v 1.0.2
     - name: Install deps
-      run: |
-        npm install -g mermaid.cli
+      run: npm install -g mermaid.cli
     - name: Setup deploy options
       id: setup
       run: |
