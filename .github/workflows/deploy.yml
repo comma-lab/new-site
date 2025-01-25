@@ -21,9 +21,14 @@ jobs:
       with:
         ruby-version: '3.0.2'
         bundler-cache: true
+    - name: Update Bundler
+      run: gem install bundler
+    - name: Uninstall conflicting uri gem
+      run: gem uninstall uri -v 0.10.1
+    - name: Install required uri gem
+      run: gem install uri -v 1.0.2
     - name: Install deps
-      run: |
-        npm install -g mermaid.cli
+      run: npm install -g mermaid.cli
     - name: Setup deploy options
       id: setup
       run: |
@@ -39,4 +44,4 @@ jobs:
     - name: Deploy website 
       run:  yes | bash bin/deploy --verbose ${{ steps.setup.outputs.NO_PUSH }}
                     --src ${{ steps.setup.outputs.SRC_BRANCH }} 
-                    --deploy ${{ steps.setup.outputs.DEPLOY_BRANCH }} 
+                    --deploy ${{ steps.setup.outputs.DEPLOY_BRANCH }}
